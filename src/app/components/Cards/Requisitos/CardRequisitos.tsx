@@ -2,7 +2,6 @@ import type { NextPage } from "next";
 import { memo} from "react";
 import BotonCard from "@/app/components/Botones/BotonCard/BotonCard";
 import styles from "./CardRequisitos.module.css";
-
 export type CardRequisitosType = {
   className?: string;
   onValueChange: (value: string) => void;

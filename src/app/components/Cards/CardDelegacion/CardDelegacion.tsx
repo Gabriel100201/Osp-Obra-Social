@@ -12,10 +12,7 @@ const CardDelegacion: NextPage<CardDelegacionType> = memo(
   ({ className = "", showIcon = true, showBotN = true }) => {
     return (
       <div className={[styles.cardAtp, className].join(" ")}>
-        <div className={styles.rectangleParent}>
-          <div className={styles.frameChild} />
-          <div className={styles.frameItem} />
-        </div>
+
         <div className={styles.delegacionesWrapper}>
           {showIcon && (
             <img
@@ -33,7 +30,7 @@ const CardDelegacion: NextPage<CardDelegacionType> = memo(
             República del Líbano 511(s) antes de España (Ex Coloso)
           </p>
           <p className={styles.repblicaDelLbano}>&nbsp;</p>
-          <p className={styles.repblicaDelLbano}>Tel. 4 97-2202 </p>
+          <p className={styles.repblicaDelLbano}>Tel. 4 97-2202</p>
           <p className={styles.horario0730A}>Horario: 07:30 a 13:30</p>
         </div>
         <div className={styles.botonPrincipalWrapper}>

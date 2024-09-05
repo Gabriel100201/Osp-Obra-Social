@@ -22,12 +22,9 @@
   object-fit: cover;
 }
 .frameChild {
-  height: 408px;
-  width: 1920px;
+  width: 100%;
   position: relative;
   background-color: var(--color-gainsboro-100);
-  display: none;
-  max-width: 100%;
 }
 .frameIcon {
   position: absolute;
@@ -49,19 +46,20 @@
   z-index: 2;
 }
 .frameParent {
-  height: 295px;
+  padding: 0px 0px;
   flex: 1;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  max-width: 100%;
+  width: 100%;
 }
 .rectangleParent {
   align-self: stretch;
   background-color: var(--color-gainsboro-100);
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 56px var(--padding-31xl) 57px;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;
   box-sizing: border-box;
   max-width: 100%;
 }

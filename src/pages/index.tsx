@@ -18,14 +18,12 @@ const OSPLanding: NextPage = () => {
         alt=""
         src="/texturas-osp-5@2x.png"
       />
-      
+
       <Menu />
-      
+
       <section className={styles.rectangleParent}>
-        <div className={styles.frameChild} />
         <div className={styles.frameParent}>
-         <Carrusel/>
-          
+          <Carrusel />
         </div>
       </section>
       {/* <div className={styles.loremIpsumDolorSitAmetConParent}>
