@@ -1,6 +1,6 @@
 .headerSpacingIcon {
-  height: 139px;
-  width: 224px;
+  width: 70%;
+  max-width: 224px;
   position: relative;
   overflow: hidden;
   flex-shrink: 0;
@@ -67,7 +67,6 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-5xs) var(--padding-xs);
-  min-width: 241px;
   flex-shrink: 0;
   max-width: 100%;
   z-index: 1;
@@ -90,9 +89,8 @@
   align-self: stretch;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
   align-content: flex-start;
-  gap: var(--gap-mini);
+  gap: 5px;
 }
 .socialButtonsContainer {
   width: 595.2px;
@@ -154,6 +152,14 @@
   gap: 13px 36px;
   min-height: 285px;
   max-width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .botones {
+    padding: 0px;
+    gap: 0px !important;
+  }
+  
 }
 .cabeceraConIconos,
 .cabecerarequisito,
@@ -263,7 +269,7 @@
   gap: var(--gap-mid);
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (min-width: 1350px) {
   .botones {
     padding-left: var(--padding-17xl);
     padding-right: var(--padding-17xl);
