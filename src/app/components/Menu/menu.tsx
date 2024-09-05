@@ -137,7 +137,7 @@ const Menu: NextPage<MenuType> = memo(({ className = "" }) => {
             </div>
           </>
         )}
-        <div className={styles.cardVerticalParent}>
+        <div className={styles.contactParent}>
           <CardContacto
             textPrncipal="Horario de Atención"
             textSecundario="de Lunes a Viernes de 7hs a 19hs"
